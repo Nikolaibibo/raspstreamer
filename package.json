@@ -1,0 +1,27 @@
+{
+  "name": "raspstreamer",
+  "version": "1.0.0",
+  "description": "streams motion jpg images from raspberry pi camera",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nikolaibibo/raspstreamer.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi"
+  ],
+  "author": "Nikolai Bockholt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikolaibibo/raspstreamer/issues"
+  },
+  "homepage": "https://github.com/Nikolaibibo/raspstreamer",
+  "dependencies": {
+    "express": "^4.12.4",
+    "socket.io": "^1.3.5"
+  }
+}
